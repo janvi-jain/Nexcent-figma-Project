@@ -1,0 +1,201 @@
+* {
+    font-family: 'Roboto' !important;
+}
+
+:root {
+    --primary-green-color: #4caf4f;
+    --grey-color: #4d4d4d;
+    --lgrey-color: #717171;
+    --white-color: #fff;
+    --black-color: #000;
+    --neutralblack-color: #263238;
+    --transition-2s: all 0.2s linear;
+    --transition-3s: all 0.3s linear;
+}
+
+header .nav-item a {
+    color: black !important;
+}
+
+.nav-item a:hover {
+    color: var(--primary-green-color) !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-toggler {
+    border: none !important;
+    font-size: 18px;
+}
+
+.btn-sign {
+    background-color: var(--primary-green-color);
+    transition: var(--transition-2s);
+}
+
+.btn-sign:hover {
+    border: 1px solid var(--primary-green-color);
+    color: var(--black-color) !important;
+}
+
+.btn-Login {
+    color: var(--primary-green-color);
+    transition: var(--transition-2s);
+}
+
+.btn-Login:hover {
+    background-color: var(--primary-green-color) !important;
+    color: var(--white-color) !important;
+}
+
+.p-tb-105 {
+    padding: 105px 0;
+}
+
+.hero-text h1 {
+    color: var(--grey-color) !important;
+    font-weight: 600;
+}
+
+.text-color {
+    color: var(--primary-green-color);
+}
+
+.hero-text p {
+    color: var(--grey-color);
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
+.btn-register,
+.Feature-btn,
+.demo-btn {
+    background-color: var(--primary-green-color);
+    transition: var(--transition-3s);
+    padding: 13px 35px;
+}
+
+.demo-btn:hover span i {
+    color: var(--black-color) !important;
+}
+
+.btn-register:hover,
+.Feature-btn:hover,
+.demo-btn:hover {
+    border: 1px solid var(--primary-green-color);
+    color: var(--black-color) !important;
+}
+
+.dot {
+    bottom: 25px;
+    left: 50%;
+}
+
+.client-section h2,
+.manage-text h3,
+.Feature-text h3,
+.service-text h2,
+.service-no h5,
+.product-text h4,
+.blog-text h4 {
+    color: var(--grey-color) !important;
+    font-weight: 500 !important;
+}
+
+.client-section p,
+.manage-text p,
+.Feature-text p,
+.product-text p,
+.blog-text p {
+    color: var(--lgrey-color) !important;
+    font-size: 14px !important;
+}
+
+.card {
+    border: none;
+}
+
+.card-body h5,
+.service-no p {
+    color: var(--grey-color) !important;
+    letter-spacing: 0.9px;
+}
+
+.card-body p, 
+.swiper-slide span {
+    color: var(--lgrey-color) !important;
+    font-size: 12px !important;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.demo-text h2 {
+    color: var(--neutralblack-color);
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
+}
+
+footer {
+    background-color: var(--neutralblack-color);
+}
+
+.social-icon span {
+    width: 35px;
+    height: 35px;
+    background-color:#3b464c;
+    border-radius: 50%;
+    cursor: pointer;
+    transition:var(--transition-2s);
+}
+
+.social-icon span i {
+    transition:var(--transition-2s);
+}
+
+.social-icon span i:hover {
+    transform: rotateY(360deg);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.menu-co-list li:nth-child(1){
+    font-size: 20px !important;
+    font-weight:500 !important;
+    letter-spacing: 1px !important;
+    color: white !important;
+}
+
+.menu-co-list li, .copyright {
+    font-size: 14px !important;
+    color: #e8e6e6 !important;
+}
+
+.form-control, .input-group-text {
+    border: none !important;
+    box-shadow: none!important;
+    background-color: #515b60 !important;
+}
+
+.input-group input::placeholder {
+    color: white;
+    font-size: 12px !important;
+}
+
+.client-logos img, .card, .blog-img, .menu-co-list li {
+    cursor: pointer;
+}
+
+
+

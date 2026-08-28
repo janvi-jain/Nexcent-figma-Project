@@ -1,0 +1,13 @@
+@media (max-width:992px) {
+    .navbar a {
+        flex-grow: 1;
+    }
+}
+
+
+@media (max-width:400px) {
+     header .btn-Login,
+     header .btn-sign {
+        display: none !important;
+    }
+}
